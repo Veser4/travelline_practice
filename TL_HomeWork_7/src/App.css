@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  margin: 0 auto;
+  color: #404040;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 1000px;
+  height: 100%;
+  margin-top: 250px;
+  margin-bottom: 200px;
+}
+
+.formContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.range {
+  font-size: 30px;
+}
+
+.reply {
+  width: 383px;
+  height: 113px;
+  margin-bottom: 20px;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: end;
+  width: 370px;
+}
+
+.reply_container{
+  width: 615px;
+  height: auto;
+}
